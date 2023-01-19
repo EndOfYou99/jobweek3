@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    
+    
+    <!--<bean id="wordList" class="hangman.businessLogic.wordList" scope="singleton">
+    <constructor-arg name="wordList">
+        <array>
+         easy words
+        <value>Abyss</value>
+        <value>Bubbly</value>
+        <value>Buzz</value>
+        <value>Buff</value>
+        <value>Cozy</value>
+        <value>Fluff</value> 
+        <value>Fluffy</value>
+        <value>Fizz</value>
+        <value>Fizzy</value>
+        <value>Fox</value>
+        <value>Jinx</value>
+        <value>Lucky</value>
+        <value>Puzzle</value>
+       medium words
+        <value>Foxglove</value>
+        <value>Abruptly</value>
+        <value>Voyeurism</value>
+        <value>Pneumonia</value>
+        <value>Jiujitsu</value>
+        <value>Espionage</value>
+        <value>Witchcraft</value>
+        <value>Razzmatazz</value>
+        <value>Zigzagging</value>
+        <value>Buckaroo</value>
+        <value>Iatrogenic</value>
+        <value>Jawbreaker</value>  
+        <value>Voodoo</value>
+ hard words 
+        <value>Jazz_singer_drops_beats</value>
+        <value>Buzzing_around_the_beekeeper</value>
+        <value>Awkward_klutzy_numbskull</value>
+        <value>Croquet_players_fix_games</value>
+        <value>Throwing_gnarly_punches</value>
+        <value>Absurd_wizard_mystifies</value>
+        <value>Jiujitsu_masters_train</value>
+        <value>Wimpy_geek_panics</value>
+        <value>Twelve_foxes_hunt</value>
+        <value>A_quiet_jinx_sulks</value>
+        <value>Nine_tailed_demon_fox</value>
+        <value>The_great__wall_of_china</value>
+        <value>Sage_of_six_paths</value>
+        </array>
+        </constructor-arg>
+    </bean>
+    
+    
+ <bean id="gameBean" class="hangman.businessLogic.GameBean" scope="singleton">
+       <property name="diffLength" value="0"></property>
+       <property name="gameNum" value="0"></property>
+       <property name="maxTries" value="6"></property>
+       <property name="tries" value="0"></property>
+       <property name="diff" value="1"></property>
+       <property name="word" value=""></property>
+       <property name="hiddenWord" value=""></property>
+       
+       <property name="wordList">
+        <array>
+          easy words 
+        <value>Abyss</value>
+        <value>Bubbly</value>
+        <value>Buzz</value>
+        <value>Buff</value>
+        <value>Cozy</value>
+        <value>Fluff</value> 
+        <value>Fluffy</value>
+        <value>Fizz</value>
+        <value>Fizzy</value>
+        <value>Fox</value>
+        <value>Jinx</value>
+        <value>Lucky</value>
+        <value>Puzzle</value>
+         medium words 
+        <value>Foxglove</value>
+        <value>Abruptly</value>
+        <value>Voyeurism</value>
+        <value>Pneumonia</value>
+        <value>Jiujitsu</value>
+        <value>Espionage</value>
+        <value>Witchcraft</value>
+        <value>Razzmatazz</value>
+        <value>Zigzagging</value>
+        <value>Buckaroo</value>
+        <value>Iatrogenic</value>
+        <value>Jawbreaker</value>  
+        <value>Voodoo</value>
+         hard words 
+        <value>Jazz_singer_drops_beats</value>
+        <value>Buzzing_around_the_beekeeper</value>
+        <value>Awkward_klutzy_numbskull</value>
+        <value>Croquet_players_fix_games</value>
+        <value>Throwing_gnarly_punches</value>
+        <value>Absurd_wizard_mystifies</value>
+        <value>Jiujitsu_masters_train</value>
+        <value>Wimpy_geek_panics</value>
+        <value>Twelve_foxes_hunt</value>
+        <value>A_quiet_jinx_sulks</value>
+        <value>Nine_tailed_demon_fox</value>
+        <value>The_great__wall_of_china</value>
+        <value>Sage_of_six_paths</value>
+        </array>
+        </property>
+        <property name="usedLetters">
+        <list>
+        <value>There are no letters currently tried.</value>
+        </list>
+        </property>
+        <property name="result" value="N"></property>
+    </bean>-->
+    
+    <!--  <bean id="GameRepository" class="hangman.businessLogic.GameRepository">
+    <constructor-arg>
+    <map>
+    </map>
+    </constructor-arg>
+    </bean>-->
+    <!--  <bean id="GameService" class="hangman.businessLogic.GameService">
+    <constructor-arg index="0" ref="GameRepository">
+ 
+    </constructor-arg>
+
+    </bean>-->
+</beans>
+
+
+
+
+	
+	
+	
